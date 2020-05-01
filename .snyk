@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - bodybuilder > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - kue > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - mage2vuestorefront > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - soap > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - elasticdump > async > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - pm2 > async > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - elasticdump > requestretry > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - mage2vuestorefront > kue > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - mage2vuestorefront > elasticsearch > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - pm2 > pm2-deploy > async > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - kue > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - kue > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - kue > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - mage2vuestorefront > kue > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - mage2vuestorefront > kue > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - mage2vuestorefront > kue > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - elasticdump > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - elasticdump > socks5-http-client > socks5-client > ip-address > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
+    - elasticdump > socks5-https-client > socks5-client > ip-address > lodash:
+        patched: '2020-05-01T05:41:24.044Z'
