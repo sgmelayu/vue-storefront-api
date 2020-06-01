@@ -36,7 +36,9 @@
     "test": "eslint src",
     "test:unit": "jest -c test/unit/jest.conf.js",
     "setup": "npm run restore; npm run migrate",
-    "lint": "eslint --ext .js,.ts src migrations scripts --fix"
+    "lint": "eslint --ext .js,.ts src migrations scripts --fix",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "pre-commit": [
     "lint"
@@ -93,7 +95,8 @@
     "storefront-query-builder": "https://github.com/DivanteLtd/storefront-query-builder.git",
     "syswide-cas": "latest",
     "tsconfig-paths": "^3.9.0",
-    "winston": "^2.4.2"
+    "winston": "^2.4.2",
+    "snyk": "^1.333.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -134,5 +137,6 @@
   "workspaces": [
     "src/api/extensions/*",
     "src/platform/*"
-  ]
+  ],
+  "snyk": true
 }
