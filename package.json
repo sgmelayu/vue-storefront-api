@@ -89,7 +89,7 @@
     "request-promise-native": "^1.0.5",
     "resource-router-middleware": "^0.6.0",
     "sharp": "^0.23.4",
-    "soap": "^0.25.0",
+    "soap": "^0.27.0",
     "storefront-query-builder": "https://github.com/DivanteLtd/storefront-query-builder.git",
     "syswide-cas": "latest",
     "tsconfig-paths": "^3.9.0",
