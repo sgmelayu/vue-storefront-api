@@ -36,7 +36,9 @@
     "test": "eslint src",
     "test:unit": "jest -c test/unit/jest.conf.js",
     "setup": "npm run restore; npm run migrate",
-    "lint": "eslint --ext .js,.ts src migrations scripts --fix"
+    "lint": "eslint --ext .js,.ts src migrations scripts --fix",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "pre-commit": [
     "lint"
@@ -94,7 +96,8 @@
     "syswide-cas": "latest",
     "tsconfig-paths": "^3.9.0",
     "vsf-utilities": "^1.0.2",
-    "winston": "^2.4.2"
+    "winston": "^2.4.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -135,5 +138,6 @@
   "workspaces": [
     "src/api/extensions/*",
     "src/platform/*"
-  ]
+  ],
+  "snyk": true
 }
