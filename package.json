@@ -56,7 +56,7 @@
     "bodybuilder": "2.2.21",
     "commander": "^5.1.0",
     "compression": "^1.7.2",
-    "config": "^1.30.0",
+    "config": "^3.3.1",
     "cors": "^2.8.4",
     "cross-env": "^7.0.2",
     "elasticdump": "^6.9.1",
@@ -92,7 +92,7 @@
     "soap": "^0.25.0",
     "storefront-query-builder": "https://github.com/vuestorefront/storefront-query-builder.git",
     "syswide-cas": "latest",
-    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths": "^3.10.0",
     "vsf-utilities": "^1.0.2",
     "winston": "^2.4.2"
   },
